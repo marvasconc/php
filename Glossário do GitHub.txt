@@ -1,0 +1,92 @@
+GitHub Glossary
+Abaixo está uma lista de alguns termos específicos do Git e do GitHub que usamos em nossos sites e documentação.
+
+Blame
+O recurso "culpar" no Git descreve a última modificação de cada linha de um arquivo, que geralmente exibe a revisão, o autor e a hora. Isso é útil, por exemplo, em rastrear quando um recurso foi adicionado ou em qual commit levou a um bug específico.
+
+
+Branch
+Uma ramificação é uma versão paralela de um repositório. Ele está contido no repositório, mas não afeta o primário ou o masterbranch, permitindo que você trabalhe livremente sem interromper a versão "viva". Depois de fazer as alterações desejadas, você pode mesclar sua ramificação no masterramo para publicar suas alterações. Para mais informações, consulte " Sobre filiais ".
+
+Check
+Uma verificação é um tipo de verificação de status no GitHub. Consulte " Verificações de status ".
+
+Clone
+Um clone é uma cópia de um repositório que reside no seu computador, em vez de no servidor de um site, ou no ato de fazer essa cópia. Com o seu clone, você pode editar os arquivos em seu editor preferido e usar o Git para acompanhar suas alterações sem precisar ficar on-line. No entanto, ele está conectado à versão remota para que as alterações possam ser sincronizadas entre os dois. Você pode enviar suas alterações locais para o controle remoto para mantê-las sincronizadas quando estiver on-line.
+
+Collaborator
+Um colaborador é uma pessoa com acesso de leitura e gravação a um repositório que foi convidado a contribuir pelo proprietário do repositório.
+
+Commit
+Um commit, ou "revisão", é uma mudança individual em um arquivo (ou conjunto de arquivos). É como quando você salva um arquivo, exceto com o Git, toda vez que você salva ele cria um ID único (também conhecido como "SHA" ou "hash") que permite que você mantenha registro de quais alterações foram feitas quando e por quem. As confirmações geralmente contêm uma mensagem de confirmação, que é uma breve descrição de quais alterações foram feitas.
+
+Contributor
+Um contribuidor é alguém que contribuiu para um projeto com uma solicitação pull reunida, mas sem acesso de colaborador.
+
+Dashboard
+Seu painel pessoal é o principal hub de sua atividade no GitHub. A partir do seu painel pessoal, você pode acompanhar os problemas e puxar as solicitações que está seguindo ou trabalhando, navegar até seus principais repositórios e páginas de equipe e aprender sobre atividades recentes em repositórios que está assistindo ou participando. Você também pode descobrir novos repositórios, que são recomendados com base nos usuários que você está seguindo e nos repositórios que você marcou com estrela. Para visualizar apenas a atividade de uma organização específica, visite o painel da sua organização. Para mais informações, consulte " Sobre o seu painel pessoal " ou " Sobre o painel da sua organização ".
+
+Diff
+Um diff é a diferença nas alterações entre dois commits ou alterações salvas. O diff irá descrever visualmente o que foi adicionado ou removido de um arquivo desde o seu último commit.
+
+Fetch
+Buscar refere-se a obter as alterações mais recentes de um repositório on-line sem mesclá-las. Após a obtenção dessas alterações, você pode compará-las com suas filiais locais (o código que reside em sua máquina local).
+
+Fork
+Um fork é uma cópia pessoal do repositório de outro usuário que reside na sua conta. Os garfos permitem que você faça alterações livremente em um projeto sem afetar o original. As garfos permanecem anexadas ao original, permitindo que você envie uma solicitação de recebimento ao autor do original para atualizar com suas alterações. Você também pode manter seu fork atualizado, retirando as atualizações do original.
+
+Git
+O Git é um programa de código aberto para rastrear mudanças em arquivos de texto, e é a principal tecnologia na qual o GitHub, a interface social e de usuário, é construída.
+
+Issue
+Issue são sugestões de melhorias, tarefas ou questões relacionadas ao repositório. Os problemas podem ser criados por qualquer pessoa (para repositórios públicos) e são moderados pelos colaboradores do repositório. Cada edição contém seu próprio fórum de discussão, pode ser rotulado e atribuído a um usuário.
+
+Markdown
+O Markdown é um formato de arquivo semântico simples, não muito diferente de .doc, .rtf e .txt. O Markdown facilita que até mesmo aqueles que não têm experiência em publicação na Web escrevam em prosa (inclusive com links, listas, marcadores, etc.) e o exibam como um site. O GitHub suporta Markdown e você pode aprender sobre a semântica .
+
+Merge
+Merging leva as alterações de um ramo (no mesmo repositório ou de um fork) e as aplica em outro. Isso geralmente acontece como uma solicitação pull (que pode ser considerada como uma solicitação para mesclar) ou por meio da linha de comando. Uma mesclagem pode ser feita automaticamente por meio de uma solicitação de pull por meio da interface da Web do GitHub, se não houver alterações conflitantes, ou sempre pode ser feita por meio da linha de comando. Para obter mais informações, consulte " Mesclando uma solicitação pull ".
+
+Open source
+O software de código aberto é um software que pode ser usado livremente, modificado e compartilhado (em formato modificado e não modificado) por qualquer pessoa . Hoje, o conceito de "código aberto" é frequentemente estendido para além do software, para representar uma filosofia de colaboração na qual os materiais de trabalho são disponibilizados on-line para qualquer um, para bifurcar, modificar, discutir e contribuir.
+
+Para obter mais informações sobre código aberto, especificamente sobre como criar e desenvolver um projeto de código aberto, criamos Guias de Código Aberto que ajudarão você a promover uma comunidade de código aberto saudável.
+
+Organizations
+As organizações são contas compartilhadas, nas quais empresas e projetos de código aberto podem colaborar em vários projetos de uma só vez. Proprietários e administradores podem gerenciar o acesso de membros aos dados e projetos da organização com recursos administrativos e de segurança sofisticados.
+
+Private repository
+Private repositories são repositórios que só podem ser visualizados ou contribuídos pelo criador e colaboradores especificados pelo criador.
+
+Pull
+Pull refere-se a quando você está buscando em mudanças e fundi-las. Por exemplo, se alguém tiver editado o arquivo remoto no qual você está trabalhando, será necessário inserir essas alterações na sua cópia local para que fique atualizado.
+
+Pull request
+Pull requests são alterações propostas para um repositório submetido por um usuário e aceito ou rejeitado pelos colaboradores de um repositório. Como os problemas, os pedidos de pull têm seu próprio fórum de discussão. Para mais informações, consulte " Sobre solicitações pull ".
+
+Push
+Pushing Pushing refere-se ao envio de suas alterações confirmadas para um repositório remoto, como um repositório hospedado no GitHub. Por exemplo, se você alterar alguma coisa localmente, você desejará, em seguida, enviar essas alterações para que outras pessoas possam acessá-las.
+
+Remote
+Esta é a versão de algo que está hospedado em um servidor, provavelmente o GitHub. Ele pode ser conectado a clones locais para que as alterações possam ser sincronizadas.
+
+Repository
+Um repositório é o elemento mais básico do GitHub. Eles são mais fáceis de imaginar como pasta de um projeto. Um repositório contém todos os arquivos do projeto (incluindo a documentação) e armazena o histórico de revisões de cada arquivo. Os repositórios podem ter vários colaboradores e podem ser públicos ou privados.
+
+SSH key
+SSH keys são uma maneira de se identificar em um servidor on-line, usando uma mensagem criptografada. É como se o seu computador tivesse sua própria senha exclusiva para outro serviço. O GitHub usa chaves SSH para transferir informações com segurança para o seu computador.
+
+Status
+Um status é um tipo de verificação de status no GitHub. Consulte " Verificações de status ".
+
+Status checks
+Status checks As verificações de status são processos externos, como construções de integração contínua, que são executadas para cada confirmação feita em um repositório. Para mais informações, consulte " Sobre as verificações de status ".
+
+Team
+As equipes são grupos de membros da organização que refletem a estrutura de sua empresa ou grupo com permissões de acesso em cascata e menções.
+
+Upstream
+Quando se fala de uma ramificação ou bifurcação, a ramificação principal no repositório original é geralmente chamada de "upstream", já que esse é o local principal de onde outras alterações virão. O branch / fork no qual você está trabalhando é chamado de "downstream".
+
+User
+Users Os usuários são contas pessoais do GitHub. Cada usuário possui um perfil pessoal e pode possuir vários repositórios, públicos ou privados. Eles podem criar ou ser convidados a participar de organizações ou colaborar no repositório de outro usuário.
